@@ -17,7 +17,7 @@ const Hero = () => {
       style={{ backgroundImage: "url('/hero/hero-bg.png')" }}
     >
       <div className="flex text-white min-h-[750px] max-w-container mx-auto px-container flex-col justify-center lg:justify-start lg:flex-row">
-        <div className=" flex justify-start items-center relative isolate">
+        <div className=" flex justify-center lg:justify-start items-center relative isolate">
           <DotPattern
             className={cn(
               "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] fixed"

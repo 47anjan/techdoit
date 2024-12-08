@@ -86,9 +86,9 @@ module.exports = {
           },
         },
       },
-    },
-    maxWidth: {
-      container: "1140px",
+      maxWidth: {
+        container: "1140px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
