@@ -20,7 +20,7 @@ const Hero = () => {
         <div className=" flex justify-center lg:justify-start items-center relative isolate">
           <DotPattern
             className={cn(
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] fixed"
+              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] "
             )}
           />
           <div className=" text-center lg:text-start">
