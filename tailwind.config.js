@@ -9,7 +9,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        purple: "#686EE2",
         "navy-blue": "#081845",
         "ocean-blue": "#09254d",
         "charcoal-blue": "#1A2A57",
@@ -18,6 +17,7 @@ module.exports = {
         "blue-gray": "#565872",
         "dim-gray": "#707070",
         "silver-gray": "#D1D4DD",
+        purple: "#686EE2",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -72,9 +72,11 @@ module.exports = {
         container: "0.938rem",
         section: "120px",
       },
-
       animation: {
         pulse: "pulse var(--duration) ease-out infinite",
+        shadows: "shadows 1s linear infinite",
+        marquee: "marquee var(--duration) infinite linear",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       keyframes: {
         pulse: {
@@ -85,9 +87,35 @@ module.exports = {
             boxShadow: "0 0 0 8px var(--pulse-color)",
           },
         },
+        shadows: {
+          "0%": {
+            boxShadow:
+              "0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 30px rgba(255, 255, 255, 0.2)",
+          },
+          "100%": {
+            boxShadow:
+              "0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 30px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0)",
+          },
+        },
+        marquee: {
+          from: {
+            transform: "translateX(0)",
+          },
+          to: {
+            transform: "translateX(calc(-100% - var(--gap)))",
+          },
+        },
+        "marquee-vertical": {
+          from: {
+            transform: "translateY(0)",
+          },
+          to: {
+            transform: "translateY(calc(-100% - var(--gap)))",
+          },
+        },
       },
       maxWidth: {
-        container: "1140px",
+        container: "1170px",
       },
     },
   },

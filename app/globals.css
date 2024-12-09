@@ -69,26 +69,63 @@ body {
   body {
     @apply bg-background text-foreground;
   }
-}
 
-/* Slide in and Fadein Animation */
-@keyframes slideIn {
-  from {
-    transform: translateX(100%);
+  /* Slide in and Fadein Animation */
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  }
+
+  /* Mobile menu overly */
+  .backdrop {
+    animation: fadeIn 850ms cubic-bezier(0.14, 0.78, 0.36, 1);
+  }
+
+  /* Mobile menu container */
+  .drawer {
+    animation: slideIn 500ms cubic-bezier(0.14, 0.78, 0.36, 1);
   }
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+
+/* masonry layout */
+.projects-grid {
+  --gap: 20px;
+  --columns: 3;
+
+  margin: 0 auto;
+  display: column;
+  columns: var(--columns);
+  gap: var(--gap);
+}
+
+.projects-grid > * {
+  break-inside: avoid;
+  margin-bottom: var(--gap);
+}
+
+@supports (grid-template-rows: masonry) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-template-rows: masonry;
+    grid-auto-flow: dense;
   }
 }
 
-/* Mobile menu overly */
-.backdrop {
-  animation: fadeIn 850ms cubic-bezier(0.14, 0.78, 0.36, 1);
+@media (max-width: 1100px) {
+  .projects-grid {
+    --columns: 2;
+  }
 }
 
-/* Mobile menu container */
-.drawer {
-  animation: slideIn 500ms cubic-bezier(0.14, 0.78, 0.36, 1);
+@media (max-width: 640px) {
+  .projects-grid {
+    --columns: 1;
+  }
 }
