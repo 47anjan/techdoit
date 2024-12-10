@@ -7,7 +7,7 @@ const Blog = () => {
     <section>
       <div className="py-24 md:py-section max-w-container mx-auto px-container">
         <header className="text-center mb-14 ">
-          <span className="font-medium text-purple inline-block mb-3">
+          <span className="font-medium text-blue-500 inline-block mb-3">
             Our blog
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold">Blog for You</h2>

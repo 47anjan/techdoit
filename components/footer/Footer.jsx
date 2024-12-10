@@ -27,7 +27,7 @@ const Footer = () => {
               className="bg-transparent text-[15px] font-rubik placeholder:text-[#D2D5DD] w-full  text-[#D2D5DD] focus:outline-none px-4  border-0 focus:ring-0  py-0"
             />
 
-            <button className="group h-12 md:h-[50px] flex items-center justify-center py-4 px-8 bg-purple rounded-xl font-semibold  transition-all will-change-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] mx-auto md:mx-0">
+            <button className="group h-12 md:h-[50px] hover:bg-blue-500 flex items-center justify-center py-4 px-8 bg-purple rounded-xl font-semibold  transition-all will-change-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] mx-auto md:mx-0">
               <span className="flex text-nowrap items-center gap-2 ">
                 <MdEmail className="text-2xl" /> Subscribe
               </span>
@@ -48,28 +48,28 @@ const Footer = () => {
               <Link
                 href="https://instagram.com/"
                 target="_blank"
-                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-purple hover:text-white  transition-all duration-500"
+                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaInstagram />
               </Link>
               <Link
                 href="https://facebook.com/"
                 target="_blank"
-                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-purple hover:text-white  transition-all duration-500"
+                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaFacebookF />
               </Link>
               <Link
                 href="https://linkedin.com/"
                 target="_blank"
-                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-purple hover:text-white  transition-all duration-500"
+                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaLinkedinIn />
               </Link>
               <Link
                 href="https://pinterest.com/"
                 target="_blank"
-                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-purple hover:text-white  transition-all duration-500"
+                className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaPinterest />
               </Link>

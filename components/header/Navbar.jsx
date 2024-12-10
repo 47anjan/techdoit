@@ -10,8 +10,8 @@ export const navLinks = [
   },
   {
     id: 2,
-    label: "Our Pricing",
-    href: "/pricing",
+    label: "Projects",
+    href: "/projects",
   },
   {
     id: 3,
@@ -27,6 +27,16 @@ export const navLinks = [
     id: 5,
     label: "Blog",
     href: "/blog",
+  },
+  {
+    id: 5,
+    label: "Faq",
+    href: "/faq",
+  },
+  {
+    id: 5,
+    label: "Contact",
+    href: "/contact",
   },
 ];
 
