@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section
       className="bg-fixed bg-cover bg-no-repeat bg-left min-h-[750px]"
-      style={{ backgroundImage: "url('/hero/hero-bg.png')" }}
+      style={{ backgroundImage: "url('/hero/hero-bg.webp')" }}
     >
       <div className="flex text-white min-h-[750px] max-w-container mx-auto px-container flex-col justify-center lg:justify-start lg:flex-row">
         <div className=" flex justify-center lg:justify-start items-center relative isolate">
