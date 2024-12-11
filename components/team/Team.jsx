@@ -30,10 +30,7 @@ const Team = () => {
                 <span className="font-medium text-blue-500 inline-block mb-3">
                   Meet With Our Specialist
                 </span>
-                <h2 className="text-3xl sm:text-4xl font-bold">
-                  {" "}
-                  Our Portfolio
-                </h2>
+                <h2 className="text-3xl sm:text-4xl font-bold"> Our Team</h2>
               </div>
             </div>
             <div className="flex items-center  gap-5">
