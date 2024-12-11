@@ -6,10 +6,7 @@ const ServiceDetails = () => {
   return (
     <>
       <section>
-        <PageBanner
-          heading={"Services Details"}
-          subHeading={"Services Details"}
-        />
+        <PageBanner heading={"Service Details"} subHeading={"Details"} />
         <div className="max-w-container px-container mx-auto py-20 ">
           <section className="flex flex-col-reverse lg:flex-row gap-14">
             <div className="basis-[340px]">
