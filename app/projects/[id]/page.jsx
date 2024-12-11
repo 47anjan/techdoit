@@ -126,3 +126,8 @@ const ProjectDetailsPage = () => {
   );
 };
 export default ProjectDetailsPage;
+
+export const metadata = {
+  title: "Project Details - Techdoit",
+  description: "Project Details page",
+};

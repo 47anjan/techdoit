@@ -62,3 +62,8 @@ const FAQPage = () => {
   );
 };
 export default FAQPage;
+
+export const metadata = {
+  title: "FAQ - Techdoit",
+  description: "FAQ page",
+};

@@ -22,3 +22,8 @@ const ServiceDetails = () => {
   );
 };
 export default ServiceDetails;
+
+export const metadata = {
+  title: "Service Details - Techdoit",
+  description: "Service Details page",
+};

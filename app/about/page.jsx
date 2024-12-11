@@ -23,3 +23,8 @@ const AboutUsPage = () => {
   );
 };
 export default AboutUsPage;
+
+export const metadata = {
+  title: "About Us - Techdoit",
+  description: "About Us page",
+};

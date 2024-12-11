@@ -31,3 +31,8 @@ const Projects = () => {
   );
 };
 export default Projects;
+
+export const metadata = {
+  title: "Project - Techdoit",
+  description: "Project page",
+};

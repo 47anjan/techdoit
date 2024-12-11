@@ -123,3 +123,8 @@ const ContactPage = () => {
   );
 };
 export default ContactPage;
+
+export const metadata = {
+  title: "Contact Us - Techdoit",
+  description: "Contact Us page",
+};
