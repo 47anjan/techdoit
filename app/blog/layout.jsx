@@ -1,5 +1,5 @@
-import PageBanner from "@/components/PageBanner.jsx/PageBanner";
-import BlogSidebar from "./_components/BolgSidebar/BlogSidebar";
+import PageBanner from "@/components/PageBanner/PageBanner";
+import BlogSidebar from "./_components/BlogSidebar/BlogSidebar";
 
 export const metadata = {
   title: "Blog - Techdoit",

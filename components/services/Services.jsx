@@ -108,7 +108,7 @@ const Services = () => {
       >
         <LuBadgeCheck className="text-purple text-2xl" />
         IT Technology service specially built for your business.{" "}
-        <Link href="/" className="text-purple underline font-semibold">
+        <Link href="/contact" className="text-purple underline font-semibold">
           Get Your Solution
         </Link>
       </div>
