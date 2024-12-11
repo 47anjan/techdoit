@@ -8,7 +8,7 @@ const Stats = () => {
   return (
     <div
       style={{ backgroundImage: "url('/stats/stats-bg.png')" }}
-      className="bg-black text-white bg-fixed bg-left-top bg-cover bg-no-repeat py-20 md:py-56 "
+      className="bg-black text-white bg-fixed bg-left-top bg-cover bg-no-repeat py-20 md:py-40 "
     >
       <section className="px-container max-w-container mx-auto">
         <div className="gap-16 sm:gap-20  grid  sm:grid-cols-2 lg:grid-cols-4">

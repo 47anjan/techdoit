@@ -29,12 +29,12 @@ export const navLinks = [
     href: "/blog",
   },
   {
-    id: 5,
+    id: 6,
     label: "Faq",
     href: "/faq",
   },
   {
-    id: 5,
+    id: 7,
     label: "Contact",
     href: "/contact",
   },
