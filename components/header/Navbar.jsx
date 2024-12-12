@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-import MobileMenu from "@/components/Header/MobileMenu";
+import MobileMenu from "./MobileMenu";
 
 export const navLinks = [
   {
