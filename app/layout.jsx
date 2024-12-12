@@ -3,6 +3,8 @@ import { poppins } from "@/fonts/fonts";
 import "aos/dist/aos.css"; // Import AOS CSS file
 
 import AnimationProvider from "./AnimationProvider";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Techdoit",
@@ -14,10 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
         <AnimationProvider>
-          {/* <Header />
+          <Header />
           {children}
-          <Footer /> */}
-          hello
+          <Footer />
         </AnimationProvider>
       </body>
     </html>
