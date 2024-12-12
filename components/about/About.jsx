@@ -35,11 +35,17 @@ const About = () => {
             </div>
           </div>
           <div className="basis-[570px]  ">
-            <div className="flex text-blue-500 mb-4 font-medium  items-center gap-4">
+            <div
+              data-aos="fade-up"
+              className="flex text-blue-500 mb-4 font-medium  items-center gap-4"
+            >
               <span className="w-20 h-[3px] bg-blue-500"></span>
               <span>Why Choose Us</span>
             </div>
-            <h2 className="font-bold mb-4 max-w-xl text-3xl  sm:leading-snug sm:text-4xl">
+            <h2
+              data-aos="fade-up"
+              className="font-bold mb-4 max-w-xl text-3xl  sm:leading-snug sm:text-4xl"
+            >
               We Provide Best Solution For Your Business
             </h2>
             <p className="text-blue-gray max-w-[545px] mb-10">

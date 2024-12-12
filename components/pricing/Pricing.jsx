@@ -7,10 +7,15 @@ const Pricing = () => {
     <div>
       <div className="max-w-container py-20 mx-auto px-container">
         <header className="text-center mb-14 ">
-          <span className="font-medium text-blue-500 inline-block mb-3">
+          <span
+            data-aos="fade-up"
+            className="font-medium text-blue-500 inline-block mb-3"
+          >
             Suitable pricing
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold">Pricing Plans</h2>
+          <h2 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
+            Pricing Plans
+          </h2>
         </header>
 
         <div className=" grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

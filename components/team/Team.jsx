@@ -27,10 +27,19 @@ const Team = () => {
           <header className=" flex justify-between mb-16">
             <div>
               <div className="lg:ml-10">
-                <span className="font-medium text-blue-500 inline-block mb-3">
+                <span
+                  data-aos="fade-up"
+                  className="font-medium text-blue-500 inline-block mb-3"
+                >
                   Meet With Our Specialist
                 </span>
-                <h2 className="text-3xl sm:text-4xl font-bold"> Our Team</h2>
+                <h2
+                  data-aos="fade-up"
+                  className="text-3xl sm:text-4xl font-bold"
+                >
+                  {" "}
+                  Our Team
+                </h2>
               </div>
             </div>
             <div className="flex items-center  gap-5">

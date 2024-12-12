@@ -3,7 +3,7 @@ import Link from "next/link";
 const PageBanner = ({ heading, subHeading }) => {
   return (
     <header
-      className={`flex bg-[url('https://psdtowpwork.com/wp/graptor/main/wp-content/uploads/2021/11/banner.jpg')] bg-cover bg-center items-center justify-center min-h-[350px] relative isolate`}
+      className={`flex bg-[url('/banner.webp')] bg-cover bg-center items-center justify-center min-h-[350px] relative isolate`}
     >
       <div className="flex min-w-container mx-auto px-container font-rubik text-center relative z-10 flex-col gap-4 text-white">
         <h3 className="text-4xl font-bold">{heading}</h3>

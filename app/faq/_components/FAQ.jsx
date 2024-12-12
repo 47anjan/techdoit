@@ -26,14 +26,14 @@ const FAQ = () => {
                 height={100}
                 alt="img"
                 className="size-[60px] rounded-full object-cover "
-                src="/home1/blog/blog1.webp"
+                src="/blog/blog3.png"
               />
-              <div className="border-[3px] border-white group-hover:border-lime rounded-full grid place-content-center group-hover:bg-white  duration-300 transition-colors bg-lime text-xl -translate-x-8  size-[60px]">
+              <div className="border-[3px] border-purple group-hover:border-blue-500 rounded-full grid place-content-center group-hover:bg-blue-500 bg-purple  duration-300 transition-colors   -translate-x-8 text-2xl text-white size-[60px]">
                 <FiPhoneCall />
               </div>
             </div>
             <div className="flex -translate-x-4 flex-col gap-1">
-              <span className="inline-block text-sm text-slate-gray">
+              <span className="inline-block text-sm text-dim-gray">
                 Call us at
               </span>
               <span className="inline-block font-bold">+(602) 762 472 96</span>

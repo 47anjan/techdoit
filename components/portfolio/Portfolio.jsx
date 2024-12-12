@@ -16,10 +16,16 @@ const Portfolio = () => {
     <section>
       <div className="py-20 max-w-container px-container mx-auto">
         <header className="text-center mb-14 ">
-          <span className="font-medium text-blue-500 inline-block mb-3">
+          <span
+            data-aos="fade-up"
+            className="font-medium text-blue-500 inline-block mb-3"
+          >
             Completed Projects
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold"> Our Portfolio</h2>
+          <h2 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
+            {" "}
+            Our Portfolio
+          </h2>
         </header>
 
         <div>

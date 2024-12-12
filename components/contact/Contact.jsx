@@ -4,7 +4,10 @@ const Contact = () => {
       <div className=" relative isolate max-w-7xl flex flex-col lg:flex-row mx-auto px-container gap-16 items-center">
         <div className="flex flex-col gap-5">
           <div>
-            <h2 className="font-bold mb-8  leading-snug text-4xl">
+            <h2
+              data-aos="fade-up"
+              className="font-bold mb-8  leading-snug text-4xl"
+            >
               Let&rsquo;s Work together
             </h2>
             <h3 className="text-[26px] font-semibold from-navy-blue mb-3">

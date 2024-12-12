@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import Marquee from "../ui/marquee";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -55,7 +56,13 @@ const ReviewCard = ({ img, name, username, body }) => {
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <Image className="rounded-full" width={32} height={32} alt="" src={img} />
+        <Image
+          className="rounded-full"
+          width={32}
+          height={32}
+          alt=""
+          src={img}
+        />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
@@ -72,10 +79,13 @@ function Reviews() {
   return (
     <section className=" py-20">
       <header className="text-center px-container mb-14">
-        <span className="font-medium text-blue-500 inline-block mb-3">
+        <span
+          data-aos="fade-up"
+          className="font-medium text-blue-500 inline-block mb-3"
+        >
           Our Satisfied Clients
         </span>
-        <h2 className="text-3xl sm:text-4xl font-bold">
+        <h2 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
           Trusted by Professionals
         </h2>
       </header>
