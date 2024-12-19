@@ -22,8 +22,8 @@ export default function PulsatingButton({
       }}
       {...props}
     >
-      <div className="relative z-10">{children}</div>
-      <div className="absolute top-1/2 left-1/2 size-full rounded-lg bg-inherit animate-pulse -translate-x-1/2 -translate-y-1/2" />
+      <span className="relative z-10 block">{children}</span>
+      <span className="absolute block top-1/2 left-1/2 size-full rounded-lg bg-inherit animate-pulse -translate-x-1/2 -translate-y-1/2" />
     </button>
   );
 }
