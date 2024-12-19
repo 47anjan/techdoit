@@ -1,10 +1,10 @@
 const Reply = () => {
   return (
     <section>
-      <heading>
+      <div>
         <h2 className="text-5xl mb-1   font-bold font-rubik">Leave A Reply</h2>
         <span className="block h-[3px] bg-purple w-[50px]"></span>
-      </heading>
+      </div>
       <div className="flex flex-col mt-14 ">
         <form className="flex flex-col gap-8">
           <div className="grid md:grid-cols-2 gap-8">

@@ -4,10 +4,10 @@ import Image from "next/image";
 const Comments = ({ comments }) => {
   return (
     <section>
-      <heading>
+      <div>
         <h2 className="text-5xl mb-1   font-bold font-rubik">Comments</h2>
         <span className="block h-[3px] bg-purple w-[50px]"></span>
-      </heading>
+      </div>
       <div className="flex flex-col mt-14 gap-7">
         {comments.map((comment) => (
           <article
