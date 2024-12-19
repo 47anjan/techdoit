@@ -55,7 +55,7 @@ const BlogCard = async ({ blog }) => {
       ></div>
       <footer>
         <Link
-          href={`/blog-details/${blog.slug} `}
+          href={`/blog/${blog.slug}`}
           className="flex group w-fit items-center gap-2 text-navy-blue hover:text-purple duration-500 transition-colors"
         >
           <span className="font-bold   uppercase">Read More</span>
