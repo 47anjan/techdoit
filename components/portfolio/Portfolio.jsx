@@ -75,7 +75,7 @@ const Portfolio = () => {
                             </span>
                           </div>
                           <Link
-                            href={`/project/${project.id}`}
+                            href={`/projects/${project.id}`}
                             className="size-11 grid place-content-center rounded-md bg-blue-500 text-white text-lg"
                           >
                             <FaArrowRightLong />
