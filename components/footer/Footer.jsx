@@ -47,28 +47,24 @@ const Footer = () => {
             <div className="flex items-center gap-3 flex-wrap">
               <Link
                 href="https://instagram.com/"
-                target="_blank"
                 className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaInstagram />
               </Link>
               <Link
                 href="https://facebook.com/"
-                target="_blank"
                 className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaFacebookF />
               </Link>
               <Link
                 href="https://linkedin.com/"
-                target="_blank"
                 className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaLinkedinIn />
               </Link>
               <Link
                 href="https://pinterest.com/"
-                target="_blank"
                 className="size-[38px] grid place-content-center rounded-full bg-[#213058] text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaPinterest />

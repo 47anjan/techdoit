@@ -46,7 +46,6 @@ const ServiceSidebar = () => {
             <Link
               className="p-5 h-[52px] hover:bg-purple hover:text-white text-black transition-all font-semibold duration-500 bg-white  flex items-center justify-between rounded"
               key={category.id}
-              target="_blank"
               href={category.href}
             >
               <span>{category.label}</span>

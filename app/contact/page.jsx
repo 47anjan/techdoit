@@ -62,7 +62,6 @@ const ContactPage = () => {
                 </div>
 
                 <Link
-                  target="_blank"
                   className="text-lg font-bold text-blue-500 tracking-[6px] hover:underline"
                   href="/"
                 >

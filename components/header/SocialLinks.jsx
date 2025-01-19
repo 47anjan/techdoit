@@ -9,26 +9,26 @@ import {
 const SocialLinks = () => {
   return (
     <div className="flex items-center gap-5">
-      <Link target="_blank" href="https://www.facebook.com">
+      <Link href="#">
         <SocialIcon
           className="hover:text-sky-blue hover:scale-105 will-change-transform duration-500 transition-all"
           Icon={FaFacebookF}
         />
       </Link>
 
-      <Link target="_blank" href="https://www.instagram.com">
+      <Link href="#">
         <SocialIcon
           className="hover:text-sky-blue hover:scale-105 will-change-transform duration-500 transition-all"
           Icon={FaInstagram}
         />
       </Link>
-      <Link target="_blank" href="https://www.linkedin.com">
+      <Link href="#">
         <SocialIcon
           className="hover:text-sky-blue hover:scale-105 will-change-transform duration-500 transition-all"
           Icon={FaLinkedinIn}
         />
       </Link>
-      <Link target="_blank" href="https://twitter.com">
+      <Link href="#">
         <SocialIcon
           className="hover:text-sky-blue hover:scale-105 will-change-transform duration-500 transition-all"
           Icon={FaTwitter}
