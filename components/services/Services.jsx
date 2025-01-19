@@ -72,8 +72,8 @@ const Services = () => {
               >
                 <div className="relative group isolate">
                   <Image
-                    height={800}
-                    width={800}
+                    height={900}
+                    width={900}
                     className="w-full scale-110 group-hover:scale-100 duration-500 transition-transform will-change-transform h-[420px] object-cover"
                     src={service.image}
                     alt={service.title}
