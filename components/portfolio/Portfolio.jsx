@@ -58,8 +58,8 @@ const Portfolio = () => {
                   <article className="h-fit group overflow-hidden">
                     <div className="relative isolate">
                       <Image
-                        width={380}
-                        height={630}
+                        width={800}
+                        height={800}
                         alt={project.title}
                         src={project.image}
                         className="w-full h-auto"

@@ -100,8 +100,8 @@ const ProjectDetailsPage = () => {
             <div className="flex flex-col  lg:flex-row gap-7">
               <div className="basis-full md:basis-[460px]">
                 <Image
-                  width={700}
-                  height={460}
+                  width={800}
+                  height={800}
                   alt="image"
                   className="h-[470px] object-cover  w-full rounded"
                   src="/about/video.jpg"
@@ -109,8 +109,8 @@ const ProjectDetailsPage = () => {
               </div>
               <div className="flex-1 ">
                 <Image
-                  width={700}
-                  height={460}
+                  width={800}
+                  height={800}
                   alt="image"
                   className="h-[470px] w-full object-cover  rounded"
                   src="/about/about.jpg"

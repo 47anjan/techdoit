@@ -42,8 +42,8 @@ const Blog = () => {
               </div>
               <div className="overflow-hidden">
                 <Image
-                  width={370}
-                  height={250}
+                  width={800}
+                  height={800}
                   alt={blog.title}
                   src={blog.image}
                   className="w-full  group-hover:scale-105 duration-500 transition-all h-[250px] rounded-md object-cover group-hover:brightness-105"

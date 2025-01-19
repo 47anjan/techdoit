@@ -9,8 +9,8 @@ const ProjectCard = ({ project }) => {
         <Image
           className="w-full object-cover h-[480px]"
           src={project.image}
-          width={470}
-          height={480}
+          width={800}
+          height={800}
           alt={project.title}
         />
         <div className="bg-blue-500 bg-opacity-0 duration-500 transition-all group-hover:bg-opacity-80 text-white  flex items-end justify-center absolute inset-0 ">

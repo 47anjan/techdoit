@@ -11,8 +11,8 @@ const About = () => {
           <div className="flex-1">
             <div className="relative max-w-lg mx-auto isolate">
               <Image
-                width={500}
-                height={680}
+                width={800}
+                height={800}
                 alt="about"
                 src="/about/about.jpg"
                 className="w-full h-auto object-cover "

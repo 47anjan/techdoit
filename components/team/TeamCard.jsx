@@ -39,8 +39,8 @@ const TeamCard = ({ team }) => {
         </div>
         <div className="block">
           <Image
-            width={440}
-            height={440}
+            width={800}
+            height={800}
             alt={team.name}
             src={team.image}
             className="w-full scale-110 group-hover:scale-100 duration-500 transition-transform will-change-transform  h-[440px] object-cover"
