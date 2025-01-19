@@ -62,7 +62,7 @@ const Portfolio = () => {
                         height={900}
                         alt={project.title}
                         src={project.image}
-                        className="w-full h-auto"
+                        className="w-full h-auto max-h-[495px]"
                       />
                       <div className="absolute inset-0 bg-blue5text-blue-500 bg-opacity-0 group-hover:bg-opacity-70 duration-500 transition-all flex items-end p-4">
                         <div className="bg-white translate-y-2/3 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 duration-500 transition-all will-change-transform p-5 rounded-md w-full flex items-center justify-between gap-2">
