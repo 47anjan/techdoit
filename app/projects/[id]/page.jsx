@@ -15,7 +15,7 @@ const ProjectDetailsPage = () => {
           <header className="mb-24 md:mb-section">
             <Image
               width={1200}
-              height={560}
+              height={800}
               alt="project title"
               className="w-full h-[420px] sm:h-[560px] object-cover rounded"
               src="/audit.jpg"

@@ -23,8 +23,8 @@ const ServiceFeed = () => {
   return (
     <article>
       <Image
-        height={400}
-        width={740}
+        height={800}
+        width={800}
         className="w-full h-[400px] object-cover mb-10 rounded-2xl"
         alt=""
         src="/audit.jpg"

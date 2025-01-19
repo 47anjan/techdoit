@@ -38,8 +38,10 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="size-[189px] hidden lg:block absolute  rounded-full bg-purple top-5 2xl:-right-10 right-[6.25rem] z-0"></div>
-        <div className="size-[118px] hidden lg:block absolute rounded-full bg-purple bottom-5 2xl:-left-10 left-[28.25rem] z-0"></div>
+        {/* experiment */}
+
+        {/* <div className="size-[189px] hidden lg:block absolute  rounded-full bg-purple top-5 2xl:-right-10 right-[6.25rem] z-0"></div>
+        <div className="size-[118px] hidden lg:block absolute rounded-full bg-purple bottom-5 2xl:-left-10 left-[28.25rem] z-0"></div> */}
 
         <form className="py-16 w-full lg:basis-[769px] h-fit lg:py-16 border-2 bg-charcoal-blue/50 border-[#314068] relative  rounded-md flex flex-col  gap-10 lg:gap-0 backdrop-blur-md  px-10 lg:px-10  ">
           <div className="flex mb-8 flex-col gap-4">
