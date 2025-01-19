@@ -38,25 +38,25 @@ const Hero = () => {
 
             <div className="flex justify-center lg:justify-start mb-5 items-center gap-3 flex-wrap">
               <Link
-                href="https://instagram.com/"
+                href="#"
                 className="size-8 grid place-content-center rounded-lg text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaInstagram />
               </Link>
               <Link
-                href="https://facebook.com/"
+                href="#"
                 className="size-8 grid place-content-center rounded-lg text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaFacebookF />
               </Link>
               <Link
-                href="https://linkedin.com/"
+                href="#"
                 className="size-8 grid place-content-center rounded-lg text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaLinkedinIn />
               </Link>
               <Link
-                href="https://pinterest.com/"
+                href="#"
                 className="size-8 grid place-content-center rounded-lg text-sky-blue hover:bg-blue-500 hover:text-white  transition-all duration-500"
               >
                 <FaPinterest />
