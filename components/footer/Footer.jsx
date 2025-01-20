@@ -121,7 +121,10 @@ const Footer = () => {
           <div>
             <h5 className="text-xl text-white font-bold  mb-7">Latest News</h5>
             <div className="flex  flex-col gap-6">
-              <Link className="flex items-center gap-5 " href="/blog/1">
+              <Link
+                className="flex items-center gap-5 "
+                href="/blog/how-to-optimise-and-webinar-to-earn-leads"
+              >
                 <Image
                   width={70}
                   height={70}
@@ -140,7 +143,10 @@ const Footer = () => {
                   </div>
                 </div>
               </Link>
-              <Link className="flex items-center gap-5 " href="/blog/1">
+              <Link
+                className="flex items-center gap-5 "
+                href="/blog/how-to-optimise-and-webinar-to-earn-leads"
+              >
                 <Image
                   width={70}
                   height={70}
