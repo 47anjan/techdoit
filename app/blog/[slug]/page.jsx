@@ -100,7 +100,7 @@ const BlogDetailsPage = async ({ params }) => {
                         <Link
                           className="h-10 rounded-full font-rubik grid place-content-center hover:bg-purple border hover:text-white px-[18px] shadow-card-2 duration-[400ms] transition-colors text-black"
                           key={tag.slug}
-                          href={`/tags/${tag.slug}`}
+                          href="#"
                         >
                           {tag.name}
                         </Link>
