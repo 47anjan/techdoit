@@ -95,14 +95,6 @@ const Footer = () => {
               <li>
                 <Link
                   className="hover:text-white duration-500 transition-all"
-                  href="/news"
-                >
-                  News & Media
-                </Link>{" "}
-              </li>
-              <li>
-                <Link
-                  className="hover:text-white duration-500 transition-all"
                   href="/projects"
                 >
                   Our Projects
